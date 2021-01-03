@@ -1,0 +1,85 @@
+body {
+	padding: 0;
+	margin: 0;
+	
+	background-size: cover;
+	font-family: 'Courier New', Monospace;
+}
+header {
+	width: 100%;
+	background-color: #00ccff;
+	z-index: 0;
+	position: relative;
+}
+header ul {
+	display: flex;
+	justify-content: flex-end;
+	max-width: 1200px;
+	padding: 0;
+	margin: 0 auto;
+}
+header ul li {
+	list-style: none;
+	position: relative;
+	padding: 20px;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(255,255,255,.2)
+}
+header ul li :hover{
+	background: #2196f3;
+}
+header ul li a {
+	text-decoration: none;
+	color: #ffff;
+}
+.bgvid {
+	z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+.msg{
+	justify-content: center;
+	text-align: center;
+	font-size: 35px;
+	color: #66ff99;
+	text-shadow: 3.5px 3.5px 3.5px 3.5px black;
+	font-family: 'Lucida Handwritten', Cursive;
+	font-stretch: ultra-expanded;
+	text-transform: uppercase;
+}
+.info{
+	background-color: transparent;
+	font-family: 'Lucida Handwritten', Cursive;
+	padding-left: 50px;
+	color: blue;
+	text-shadow: 3.5px 3.5px 3.5px 3.5px black;
+
+
+}
+.btn{
+	background: transparent;
+	border: 3px solid skyblue;
+	color: skyblue;
+	padding: 15px 15px;
+	letter-spacing: 5px;
+	text-decoration: none;
+	font-family: 'Lucida Console', Monospace;
+
+}
+.info span{
+	background-color: #66ff99;
+}
+#cr{
+	
+}
+
+
+
+
+
